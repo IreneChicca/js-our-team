@@ -40,3 +40,10 @@ const team = [
 ]
 
 
+// capire come scrivere ciclo con forma abbreviata
+for(let i=0; i< 6; i++){
+
+console.log("Nome: "+team[i].nome)
+console.log("Ruolo: "+team[i].ruolo)
+console.log("PicURL: "+team[i].photo)
+}
