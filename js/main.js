@@ -40,10 +40,20 @@ const team = [
 ]
 
 
+
+// individuo il paragrafo dove scrivere all'interno del DOM
+
+const member = document.getElementById('member')
+
+
 // capire come scrivere ciclo con forma abbreviata
 for(let i=0; i< 6; i++){
 
-console.log("Nome: "+team[i].nome)
-console.log("Ruolo: "+team[i].ruolo)
-console.log("PicURL: "+team[i].photo)
+
+
+member.innerHTML += "Nome: "+team[i].nome+" Ruolo: "+team[i].ruolo+" PicURL: "+team[i].photo
+
 }
+
+
+
