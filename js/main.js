@@ -51,7 +51,19 @@ for(let i=0; i< 6; i++){
 
 
 
-member.innerHTML += "Nome:"+team[i].nome+"<br> Ruolo: "+team[i].ruolo+"<br> <img src=\"./img/"+team[i].photo+"\"><br><br>"
+
+member.innerHTML += 
+"<div class=\"card m-3 \" style=\"width: 18rem;\"> <img src=\"./img/"
++team[i].photo+
+"\" class=\"card-img-top\"> <div class=\"card-body\"> <h5 class=\"card-title\">"
++team[i].nome+
+"</h5><p class=\"card-text\">" 
++team[i].ruolo+ 
+"</p> </div> </div> "
+
+
+
+
 
 }
 
